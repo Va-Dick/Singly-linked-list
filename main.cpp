@@ -7,7 +7,7 @@
 
 using namespace std;
 
-//Функция для приведения списка к вектору (необходим для наглядности)
+//Р¤СѓРЅРєС†РёСЏ РґР»СЏ РїСЂРёРІРµРґРµРЅРёСЏ СЃРїРёСЃРєР° Рє РІРµРєС‚РѕСЂСѓ (РЅРµРѕР±С…РѕРґРёРј РґР»СЏ РЅР°РіР»СЏРґРЅРѕСЃС‚Рё)
 template <typename T>
 vector<T> to_vector(const LinkedList<T>& list) {
 	vector<T> result;
@@ -17,7 +17,7 @@ vector<T> to_vector(const LinkedList<T>& list) {
 	return result;
 }
 
-//Проверка функции reverse
+//РџСЂРѕРІРµСЂРєР° С„СѓРЅРєС†РёРё reverse
 void test_reverse(){
 	vector<int> vect = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	LinkedList<int> list;
@@ -28,7 +28,7 @@ void test_reverse(){
 	ASSERT_EQUAL(vect, to_vector(list));
 }
 
-//Проверка функции recursion_reverse
+//РџСЂРѕРІРµСЂРєР° С„СѓРЅРєС†РёРё recursion_reverse
 void test_recursion_reverse(){
 	vector<int> vect = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	LinkedList<int> list;
